@@ -1,0 +1,10 @@
+
+
+.content-form form input[type=text] {
+    width: 150px;
+}
+
+.content-todo-header, .content-todo-info {
+    position: relative;
+    left: 50px;
+}

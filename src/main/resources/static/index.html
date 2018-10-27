@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello, there!</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="/js/config.js"></script>
+    <script src="/js/todo.js"></script>
+    <script src="/index.js"></script>
+</head>
+<body>
+    <div id="content">
+        <div id="content-form">
+            <input type="text" name="descricao" required>
+            <input type="button" value="Incluir" onclick="Handlers.criarTodo()">
+        </div>
+        <div id="content-data"></div>
+    </div>
+</body>
+</html>
